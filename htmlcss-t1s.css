@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.table-container {
+    width: fit-content;
+    margin: 20px auto;
+    background-color: #66cccc;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+table {
+    width: 80%;
+    border-collapse: separate;
+    border-spacing: 10px;
+    background-color: transparent;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: transparent;
+}
+
+th {
+    background-color: #66cccc;
+}
+
+.shapes {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.shape {
+    width: 100px;
+    height: 50px;
+    border: 2px solid orange;
+    background-color: transparent;
+}
+
+.rectangle {
+    border-radius: 0;
+}
+
+.curved {
+    border-radius: 15px;
+}
+
+.oval {
+    border-radius: 25px;
+}
